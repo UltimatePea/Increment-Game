@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E79BF83E1B7DC1840002CF6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E79BF83D1B7DC1840002CF6C /* main.m */; };
+		E79BF8411B7DC1840002CF6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E79BF8401B7DC1840002CF6C /* AppDelegate.m */; };
+		E79BF8441B7DC1840002CF6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79BF8431B7DC1840002CF6C /* ViewController.m */; };
+		E79BF8471B7DC1840002CF6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79BF8451B7DC1840002CF6C /* Main.storyboard */; };
+		E79BF84A1B7DC1840002CF6C /* Chinese_Traditional_Gaming.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E79BF8481B7DC1840002CF6C /* Chinese_Traditional_Gaming.xcdatamodeld */; };
+		E79BF84C1B7DC1840002CF6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79BF84B1B7DC1840002CF6C /* Assets.xcassets */; };
+		E79BF84F1B7DC1840002CF6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79BF84D1B7DC1840002CF6C /* LaunchScreen.storyboard */; };
+		E79BF85A1B7DC1840002CF6C /* Chinese_Traditional_GamingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E79BF8591B7DC1840002CF6C /* Chinese_Traditional_GamingTests.m */; };
+		E79BF8651B7DC1840002CF6C /* Chinese_Traditional_GamingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E79BF8641B7DC1840002CF6C /* Chinese_Traditional_GamingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E79BF8561B7DC1840002CF6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79BF8311B7DC1830002CF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79BF8381B7DC1830002CF6C;
+			remoteInfo = "Chinese Traditional Gaming";
+		};
+		E79BF8611B7DC1840002CF6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79BF8311B7DC1830002CF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79BF8381B7DC1830002CF6C;
+			remoteInfo = "Chinese Traditional Gaming";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E79BF8391B7DC1830002CF6C /* Chinese Traditional Gaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chinese Traditional Gaming.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79BF83D1B7DC1840002CF6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E79BF83F1B7DC1840002CF6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E79BF8401B7DC1840002CF6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E79BF8421B7DC1840002CF6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E79BF8431B7DC1840002CF6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E79BF8461B7DC1840002CF6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E79BF8491B7DC1840002CF6C /* Chinese_Traditional_Gaming.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chinese_Traditional_Gaming.xcdatamodel; sourceTree = "<group>"; };
+		E79BF84B1B7DC1840002CF6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E79BF84E1B7DC1840002CF6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E79BF8501B7DC1840002CF6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79BF8551B7DC1840002CF6C /* Chinese Traditional GamingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chinese Traditional GamingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79BF8591B7DC1840002CF6C /* Chinese_Traditional_GamingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chinese_Traditional_GamingTests.m; sourceTree = "<group>"; };
+		E79BF85B1B7DC1840002CF6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79BF8601B7DC1840002CF6C /* Chinese Traditional GamingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chinese Traditional GamingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79BF8641B7DC1840002CF6C /* Chinese_Traditional_GamingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chinese_Traditional_GamingUITests.m; sourceTree = "<group>"; };
+		E79BF8661B7DC1840002CF6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E79BF8361B7DC1830002CF6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79BF8521B7DC1840002CF6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79BF85D1B7DC1840002CF6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E79BF8301B7DC1830002CF6C = {
+			isa = PBXGroup;
+			children = (
+				E79BF83B1B7DC1840002CF6C /* Chinese Traditional Gaming */,
+				E79BF8581B7DC1840002CF6C /* Chinese Traditional GamingTests */,
+				E79BF8631B7DC1840002CF6C /* Chinese Traditional GamingUITests */,
+				E79BF83A1B7DC1830002CF6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E79BF83A1B7DC1830002CF6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E79BF8391B7DC1830002CF6C /* Chinese Traditional Gaming.app */,
+				E79BF8551B7DC1840002CF6C /* Chinese Traditional GamingTests.xctest */,
+				E79BF8601B7DC1840002CF6C /* Chinese Traditional GamingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E79BF83B1B7DC1840002CF6C /* Chinese Traditional Gaming */ = {
+			isa = PBXGroup;
+			children = (
+				E79BF83F1B7DC1840002CF6C /* AppDelegate.h */,
+				E79BF8401B7DC1840002CF6C /* AppDelegate.m */,
+				E79BF8421B7DC1840002CF6C /* ViewController.h */,
+				E79BF8431B7DC1840002CF6C /* ViewController.m */,
+				E79BF8451B7DC1840002CF6C /* Main.storyboard */,
+				E79BF84B1B7DC1840002CF6C /* Assets.xcassets */,
+				E79BF84D1B7DC1840002CF6C /* LaunchScreen.storyboard */,
+				E79BF8501B7DC1840002CF6C /* Info.plist */,
+				E79BF8481B7DC1840002CF6C /* Chinese_Traditional_Gaming.xcdatamodeld */,
+				E79BF83C1B7DC1840002CF6C /* Supporting Files */,
+			);
+			path = "Chinese Traditional Gaming";
+			sourceTree = "<group>";
+		};
+		E79BF83C1B7DC1840002CF6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E79BF83D1B7DC1840002CF6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E79BF8581B7DC1840002CF6C /* Chinese Traditional GamingTests */ = {
+			isa = PBXGroup;
+			children = (
+				E79BF8591B7DC1840002CF6C /* Chinese_Traditional_GamingTests.m */,
+				E79BF85B1B7DC1840002CF6C /* Info.plist */,
+			);
+			path = "Chinese Traditional GamingTests";
+			sourceTree = "<group>";
+		};
+		E79BF8631B7DC1840002CF6C /* Chinese Traditional GamingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E79BF8641B7DC1840002CF6C /* Chinese_Traditional_GamingUITests.m */,
+				E79BF8661B7DC1840002CF6C /* Info.plist */,
+			);
+			path = "Chinese Traditional GamingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E79BF8381B7DC1830002CF6C /* Chinese Traditional Gaming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79BF8691B7DC1840002CF6C /* Build configuration list for PBXNativeTarget "Chinese Traditional Gaming" */;
+			buildPhases = (
+				E79BF8351B7DC1830002CF6C /* Sources */,
+				E79BF8361B7DC1830002CF6C /* Frameworks */,
+				E79BF8371B7DC1830002CF6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chinese Traditional Gaming";
+			productName = "Chinese Traditional Gaming";
+			productReference = E79BF8391B7DC1830002CF6C /* Chinese Traditional Gaming.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E79BF8541B7DC1840002CF6C /* Chinese Traditional GamingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79BF86C1B7DC1840002CF6C /* Build configuration list for PBXNativeTarget "Chinese Traditional GamingTests" */;
+			buildPhases = (
+				E79BF8511B7DC1840002CF6C /* Sources */,
+				E79BF8521B7DC1840002CF6C /* Frameworks */,
+				E79BF8531B7DC1840002CF6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E79BF8571B7DC1840002CF6C /* PBXTargetDependency */,
+			);
+			name = "Chinese Traditional GamingTests";
+			productName = "Chinese Traditional GamingTests";
+			productReference = E79BF8551B7DC1840002CF6C /* Chinese Traditional GamingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E79BF85F1B7DC1840002CF6C /* Chinese Traditional GamingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79BF86F1B7DC1840002CF6C /* Build configuration list for PBXNativeTarget "Chinese Traditional GamingUITests" */;
+			buildPhases = (
+				E79BF85C1B7DC1840002CF6C /* Sources */,
+				E79BF85D1B7DC1840002CF6C /* Frameworks */,
+				E79BF85E1B7DC1840002CF6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E79BF8621B7DC1840002CF6C /* PBXTargetDependency */,
+			);
+			name = "Chinese Traditional GamingUITests";
+			productName = "Chinese Traditional GamingUITests";
+			productReference = E79BF8601B7DC1840002CF6C /* Chinese Traditional GamingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E79BF8311B7DC1830002CF6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Chen Zhibo";
+				TargetAttributes = {
+					E79BF8381B7DC1830002CF6C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					E79BF8541B7DC1840002CF6C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E79BF8381B7DC1830002CF6C;
+					};
+					E79BF85F1B7DC1840002CF6C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E79BF8381B7DC1830002CF6C;
+					};
+				};
+			};
+			buildConfigurationList = E79BF8341B7DC1830002CF6C /* Build configuration list for PBXProject "Chinese Traditional Gaming" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E79BF8301B7DC1830002CF6C;
+			productRefGroup = E79BF83A1B7DC1830002CF6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E79BF8381B7DC1830002CF6C /* Chinese Traditional Gaming */,
+				E79BF8541B7DC1840002CF6C /* Chinese Traditional GamingTests */,
+				E79BF85F1B7DC1840002CF6C /* Chinese Traditional GamingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E79BF8371B7DC1830002CF6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79BF84F1B7DC1840002CF6C /* LaunchScreen.storyboard in Resources */,
+				E79BF84C1B7DC1840002CF6C /* Assets.xcassets in Resources */,
+				E79BF8471B7DC1840002CF6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79BF8531B7DC1840002CF6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79BF85E1B7DC1840002CF6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E79BF8351B7DC1830002CF6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79BF8441B7DC1840002CF6C /* ViewController.m in Sources */,
+				E79BF8411B7DC1840002CF6C /* AppDelegate.m in Sources */,
+				E79BF84A1B7DC1840002CF6C /* Chinese_Traditional_Gaming.xcdatamodeld in Sources */,
+				E79BF83E1B7DC1840002CF6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79BF8511B7DC1840002CF6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79BF85A1B7DC1840002CF6C /* Chinese_Traditional_GamingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79BF85C1B7DC1840002CF6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79BF8651B7DC1840002CF6C /* Chinese_Traditional_GamingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E79BF8571B7DC1840002CF6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E79BF8381B7DC1830002CF6C /* Chinese Traditional Gaming */;
+			targetProxy = E79BF8561B7DC1840002CF6C /* PBXContainerItemProxy */;
+		};
+		E79BF8621B7DC1840002CF6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E79BF8381B7DC1830002CF6C /* Chinese Traditional Gaming */;
+			targetProxy = E79BF8611B7DC1840002CF6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E79BF8451B7DC1840002CF6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79BF8461B7DC1840002CF6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E79BF84D1B7DC1840002CF6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79BF84E1B7DC1840002CF6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E79BF8671B7DC1840002CF6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E79BF8681B7DC1840002CF6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E79BF86A1B7DC1840002CF6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Chinese Traditional Gaming/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhibo.chen.Chinese-Traditional-Gaming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E79BF86B1B7DC1840002CF6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Chinese Traditional Gaming/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhibo.chen.Chinese-Traditional-Gaming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E79BF86D1B7DC1840002CF6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Chinese Traditional GamingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhibo.chen.Chinese-Traditional-GamingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chinese Traditional Gaming.app/Chinese Traditional Gaming";
+			};
+			name = Debug;
+		};
+		E79BF86E1B7DC1840002CF6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Chinese Traditional GamingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhibo.chen.Chinese-Traditional-GamingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chinese Traditional Gaming.app/Chinese Traditional Gaming";
+			};
+			name = Release;
+		};
+		E79BF8701B7DC1840002CF6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Chinese Traditional GamingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhibo.chen.Chinese-Traditional-GamingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Chinese Traditional Gaming";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E79BF8711B7DC1840002CF6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Chinese Traditional GamingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhibo.chen.Chinese-Traditional-GamingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Chinese Traditional Gaming";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E79BF8341B7DC1830002CF6C /* Build configuration list for PBXProject "Chinese Traditional Gaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79BF8671B7DC1840002CF6C /* Debug */,
+				E79BF8681B7DC1840002CF6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79BF8691B7DC1840002CF6C /* Build configuration list for PBXNativeTarget "Chinese Traditional Gaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79BF86A1B7DC1840002CF6C /* Debug */,
+				E79BF86B1B7DC1840002CF6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E79BF86C1B7DC1840002CF6C /* Build configuration list for PBXNativeTarget "Chinese Traditional GamingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79BF86D1B7DC1840002CF6C /* Debug */,
+				E79BF86E1B7DC1840002CF6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E79BF86F1B7DC1840002CF6C /* Build configuration list for PBXNativeTarget "Chinese Traditional GamingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79BF8701B7DC1840002CF6C /* Debug */,
+				E79BF8711B7DC1840002CF6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E79BF8481B7DC1840002CF6C /* Chinese_Traditional_Gaming.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E79BF8491B7DC1840002CF6C /* Chinese_Traditional_Gaming.xcdatamodel */,
+			);
+			currentVersion = E79BF8491B7DC1840002CF6C /* Chinese_Traditional_Gaming.xcdatamodel */;
+			path = Chinese_Traditional_Gaming.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E79BF8311B7DC1830002CF6C /* Project object */;
+}
