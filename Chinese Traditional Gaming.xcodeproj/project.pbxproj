@@ -16,6 +16,12 @@
 		E79BF84F1B7DC1840002CF6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79BF84D1B7DC1840002CF6C /* LaunchScreen.storyboard */; };
 		E79BF85A1B7DC1840002CF6C /* Chinese_Traditional_GamingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E79BF8591B7DC1840002CF6C /* Chinese_Traditional_GamingTests.m */; };
 		E79BF8651B7DC1840002CF6C /* Chinese_Traditional_GamingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E79BF8641B7DC1840002CF6C /* Chinese_Traditional_GamingUITests.m */; };
+		E79BF8741B7DC1A60002CF6C /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = E79BF8731B7DC1A60002CF6C /* Game.m */; };
+		E79BF8771B7DC1BB0002CF6C /* BuildObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E79BF8761B7DC1BB0002CF6C /* BuildObject.m */; };
+		E79BF87A1B7DC1F30002CF6C /* GameConfigurationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E79BF8791B7DC1F30002CF6C /* GameConfigurationObject.m */; };
+		E79BF87E1B7DC3AD0002CF6C /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79BF87D1B7DC3AD0002CF6C /* GameViewController.m */; };
+		E79BF8841B7DC73C0002CF6C /* StoneCollectGameConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E79BF8831B7DC73C0002CF6C /* StoneCollectGameConfig.m */; };
+		E79BF8871B7DCAAE0002CF6C /* BuildObjectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E79BF8861B7DCAAE0002CF6C /* BuildObjectTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,18 @@
 		E79BF8601B7DC1840002CF6C /* Chinese Traditional GamingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chinese Traditional GamingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79BF8641B7DC1840002CF6C /* Chinese_Traditional_GamingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chinese_Traditional_GamingUITests.m; sourceTree = "<group>"; };
 		E79BF8661B7DC1840002CF6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79BF8721B7DC1A60002CF6C /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		E79BF8731B7DC1A60002CF6C /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		E79BF8751B7DC1BB0002CF6C /* BuildObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildObject.h; sourceTree = "<group>"; };
+		E79BF8761B7DC1BB0002CF6C /* BuildObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildObject.m; sourceTree = "<group>"; };
+		E79BF8781B7DC1F30002CF6C /* GameConfigurationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConfigurationObject.h; sourceTree = "<group>"; };
+		E79BF8791B7DC1F30002CF6C /* GameConfigurationObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameConfigurationObject.m; sourceTree = "<group>"; };
+		E79BF87C1B7DC3AD0002CF6C /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		E79BF87D1B7DC3AD0002CF6C /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		E79BF8821B7DC73C0002CF6C /* StoneCollectGameConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoneCollectGameConfig.h; sourceTree = "<group>"; };
+		E79BF8831B7DC73C0002CF6C /* StoneCollectGameConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoneCollectGameConfig.m; sourceTree = "<group>"; };
+		E79BF8851B7DCAAE0002CF6C /* BuildObjectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildObjectTableViewCell.h; sourceTree = "<group>"; };
+		E79BF8861B7DCAAE0002CF6C /* BuildObjectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildObjectTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +125,11 @@
 				E79BF8401B7DC1840002CF6C /* AppDelegate.m */,
 				E79BF8421B7DC1840002CF6C /* ViewController.h */,
 				E79BF8431B7DC1840002CF6C /* ViewController.m */,
+				E79BF87C1B7DC3AD0002CF6C /* GameViewController.h */,
+				E79BF87D1B7DC3AD0002CF6C /* GameViewController.m */,
+				E79BF8851B7DCAAE0002CF6C /* BuildObjectTableViewCell.h */,
+				E79BF8861B7DCAAE0002CF6C /* BuildObjectTableViewCell.m */,
+				E79BF87B1B7DC2D30002CF6C /* Model */,
 				E79BF8451B7DC1840002CF6C /* Main.storyboard */,
 				E79BF84B1B7DC1840002CF6C /* Assets.xcassets */,
 				E79BF84D1B7DC1840002CF6C /* LaunchScreen.storyboard */,
@@ -141,6 +164,21 @@
 				E79BF8661B7DC1840002CF6C /* Info.plist */,
 			);
 			path = "Chinese Traditional GamingUITests";
+			sourceTree = "<group>";
+		};
+		E79BF87B1B7DC2D30002CF6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E79BF8721B7DC1A60002CF6C /* Game.h */,
+				E79BF8731B7DC1A60002CF6C /* Game.m */,
+				E79BF8781B7DC1F30002CF6C /* GameConfigurationObject.h */,
+				E79BF8791B7DC1F30002CF6C /* GameConfigurationObject.m */,
+				E79BF8821B7DC73C0002CF6C /* StoneCollectGameConfig.h */,
+				E79BF8831B7DC73C0002CF6C /* StoneCollectGameConfig.m */,
+				E79BF8751B7DC1BB0002CF6C /* BuildObject.h */,
+				E79BF8761B7DC1BB0002CF6C /* BuildObject.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,10 +311,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79BF87E1B7DC3AD0002CF6C /* GameViewController.m in Sources */,
+				E79BF8741B7DC1A60002CF6C /* Game.m in Sources */,
+				E79BF8771B7DC1BB0002CF6C /* BuildObject.m in Sources */,
 				E79BF8441B7DC1840002CF6C /* ViewController.m in Sources */,
+				E79BF8841B7DC73C0002CF6C /* StoneCollectGameConfig.m in Sources */,
 				E79BF8411B7DC1840002CF6C /* AppDelegate.m in Sources */,
 				E79BF84A1B7DC1840002CF6C /* Chinese_Traditional_Gaming.xcdatamodeld in Sources */,
 				E79BF83E1B7DC1840002CF6C /* main.m in Sources */,
+				E79BF87A1B7DC1F30002CF6C /* GameConfigurationObject.m in Sources */,
+				E79BF8871B7DCAAE0002CF6C /* BuildObjectTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
